@@ -1,5 +1,5 @@
 .padding-top-bottom {
-    padding: 136px 0;
+    padding: 140px 0;
 }
 
 .height-width {
@@ -14,4 +14,32 @@
 .same-width {
     width: 118px;
     height: 28px;
+}
+
+@media (max-width: 575.98px) {
+    .mobile-diraction {
+        flex-direction: column;
+
+    }
+
+    .height-width {
+        width: 300px;
+    }
+
+    .height-width img {
+        width: 100%
+    }
+
+    .change-direction {
+        flex-direction: column;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .padding-top-bottom {
+        padding: 60px 0;
+    }
+
 }
