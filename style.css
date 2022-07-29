@@ -6,11 +6,6 @@
     padding: 144px 0;
 }
 
-.height-width {
-    height: 200px;
-    width: 200px;
-}
-
 .margin-top {
     margin-top: 100px;
 }
@@ -18,6 +13,10 @@
 .compani-width {
     width: 140px;
     height: 28px;
+}
+
+.register-button-change {
+    justify-content: end;
 }
 
 /* Tablet device */
@@ -58,16 +57,8 @@
 
     }
 
-    .height-width {
-        width: 300px;
-    }
-
-    .height-width img {
-        width: 100%
-    }
-
     .change-direction {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .display-none {
